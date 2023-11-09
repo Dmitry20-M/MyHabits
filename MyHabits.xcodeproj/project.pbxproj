@@ -10,6 +10,7 @@
 		047FA72F29DD660E00F28C63 /* HabitViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047FA72E29DD660E00F28C63 /* HabitViewCell.swift */; };
 		047FA73129DD665300F28C63 /* HeaderHabitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047FA73029DD665300F28C63 /* HeaderHabitView.swift */; };
 		047FA73329DD66BE00F28C63 /* HabitsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047FA73229DD66BE00F28C63 /* HabitsListViewController.swift */; };
+		048166422AF587C900AE0BCA /* UIIView+Extension .swift in Sources */ = {isa = PBXBuildFile; fileRef = 048166412AF587C900AE0BCA /* UIIView+Extension .swift */; };
 		049EB8AA29DAD24600329223 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049EB8A929DAD24600329223 /* AppDelegate.swift */; };
 		049EB8AC29DAD24600329223 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049EB8AB29DAD24600329223 /* SceneDelegate.swift */; };
 		049EB8B329DAD24600329223 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 049EB8B229DAD24600329223 /* Assets.xcassets */; };
@@ -24,6 +25,7 @@
 		047FA72E29DD660E00F28C63 /* HabitViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitViewCell.swift; sourceTree = "<group>"; };
 		047FA73029DD665300F28C63 /* HeaderHabitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderHabitView.swift; sourceTree = "<group>"; };
 		047FA73229DD66BE00F28C63 /* HabitsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitsListViewController.swift; sourceTree = "<group>"; };
+		048166412AF587C900AE0BCA /* UIIView+Extension .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIIView+Extension .swift"; sourceTree = "<group>"; };
 		049EB8A629DAD24600329223 /* MyHabits.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyHabits.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		049EB8A929DAD24600329223 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		049EB8AB29DAD24600329223 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -71,6 +73,7 @@
 				049EB8BE29DAD2B800329223 /* Model */,
 				049EB8A929DAD24600329223 /* AppDelegate.swift */,
 				049EB8AB29DAD24600329223 /* SceneDelegate.swift */,
+				048166412AF587C900AE0BCA /* UIIView+Extension .swift */,
 				049EB8B229DAD24600329223 /* Assets.xcassets */,
 				049EB8B429DAD24600329223 /* LaunchScreen.storyboard */,
 				049EB8B729DAD24600329223 /* Info.plist */,
@@ -177,6 +180,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				049EB8C129DAD2FC00329223 /* HabitsStore.swift in Sources */,
+				048166422AF587C900AE0BCA /* UIIView+Extension .swift in Sources */,
 				049EB8AA29DAD24600329223 /* AppDelegate.swift in Sources */,
 				049EB8AC29DAD24600329223 /* SceneDelegate.swift in Sources */,
 				049EB8C329DAD34200329223 /* HabitsViewController.swift in Sources */,

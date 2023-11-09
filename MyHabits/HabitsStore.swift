@@ -7,6 +7,12 @@
 
 import UIKit
 
+struct  DataPost {
 
-
+    let aoutchor: String?
+    let description: String?
+    let avatarPosts: String?
+    
+    
+}
 
