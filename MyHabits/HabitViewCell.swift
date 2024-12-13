@@ -7,7 +7,15 @@
 
 import UIKit
 
+protocol DataTransmissionViaTheProtocol: AnyObject {
+
+    func descriptionText(item: String)
+    func myImageViewImageView(item: String)
+}
+
 class HabitViewCell: UITableViewCell {
+
+     weak var delegate: DataTransmissionViaTheProtocol?
     
     private let author: UILabel = {
         let label = UILabel()
@@ -37,8 +45,6 @@ class HabitViewCell: UITableViewCell {
         return imageView
     }()
     
- 
-
     public func setupcell(datapost: DataPost) {
         author.text = datapost.autchor
         descriptionLabel.text = datapost.description
@@ -46,9 +52,14 @@ class HabitViewCell: UITableViewCell {
         
     }
     
+
+
     override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
         super .init(style: style, reuseIdentifier: reuseIdentifier)
         setupConstraints()
+        delegate.descriptionText(item: descriptionLabel.text ?? "" ) // как сюда передать текст из MyHabits или же из HabitViewCell private let descriptionLabel: UILabel 
+        // его надо вызывать в @objc private func pressingTheButton()  
+        // слелать @objc в HabitViewCell
     }
     
     required init?(coder: NSCoder) {

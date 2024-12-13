@@ -9,7 +9,7 @@ import UIKit
 
 class HabitsListViewController: UIViewController {
 
-    private let nabitVewCell = HabitViewCell() // зачем делать если я вроде не вызываю 
+    private let nabitVewCell = HabitViewCell() // зачем делать если я вроде не вызываю (чтоб вызваьть в extension HabitsListViewController: DataTransmissionViaTheProtocol )
     private(set) var myDataPost = DataPost.myDataPost()
     
     
@@ -92,4 +92,16 @@ extension HabitsListViewController: UITableViewDelegate {
     }
     
     
+}
+
+
+extension HabitsListViewController: DataTransmissionViaTheProtocol {
+    
+    func descriptionText(item: String) {                // здесь иницилизируем данные (создаем экземпляр UILabel) 
+        nabitVewCell.descriptionLabel.text = item       
+    }
+
+    func myImageViewImageView(item: String) {
+
+    }
 }
